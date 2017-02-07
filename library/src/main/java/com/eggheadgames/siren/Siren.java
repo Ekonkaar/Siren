@@ -276,6 +276,7 @@ public class Siren {
 
                 switch (status) {
                     case 200:
+                        break;
                     case 201:
                         BufferedReader br = new BufferedReader(new InputStreamReader(connection.getInputStream(), "UTF-8"));
                         StringBuilder sb = new StringBuilder();
